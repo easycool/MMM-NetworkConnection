@@ -37,5 +37,5 @@ Ce module combine [internet-monitor](https://github.com/ronny3050/internet-monit
 | `maxTime` | `5000` milliseconds | Combien de temps pour faire le teste de vitesse |
 | `initialLoadDelay` | `2500` milliseconds | Délais de chargement du module |
 | `decimal` | `1` | Combien de chiffres apres la virgule |
-| `displayTextStatus` | `true` | Afficher l'état du texte de connexion ou non |
+| `displayTextStatus` | `true` | Afficher le texte d'état de connexion ou non |
 | `animationSpeed` | `2500` milliseconds | Vitesse de l'animation de mise à jour |
