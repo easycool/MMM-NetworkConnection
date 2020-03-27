@@ -11,7 +11,7 @@ Ce module combine [internet-monitor](https://github.com/ronny3050/internet-monit
 
 ![](others/MMM-NetworkConnection-screenshot-01.png)	![](others/MMM-NetworkConnection-screenshot-02.png)
 
-## Dépendences
+## Dépendances
 
 * Une installation de [MagicMirror<sup>2</sup>](https://github.com/MichMich/MagicMirror)
 * [speedtest-net](https://www.npmjs.com/package/speedtest-net) nodejs module
@@ -20,7 +20,7 @@ Ce module combine [internet-monitor](https://github.com/ronny3050/internet-monit
 
 1. Cloner ce dépôt dans le repertoire `~/MagicMirror/modules`.
 2. Aller dans le repertoire `~/MagicMirror/modules/MMM-NetworkConnection` et lancer `npm install`
-3. Configurer le `~/MagicMirror/config/config.js`:
+3. Ajouter et configurer le module dans le fichier `~/MagicMirror/config/config.js`:
 
     ```
     {
