@@ -1,4 +1,5 @@
 Traduit de l'original [MMM-NetworkConnection](https://github.com/slametps/MMM-NetworkConnection)
+Merci a [Slametps](https://github.com/slametps) pour son travail.
 
 # MMM-NetworkConnection [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)]
 
