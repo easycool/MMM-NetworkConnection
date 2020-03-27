@@ -1,22 +1,24 @@
+Traduit de l'original [MMM-NetworkConnection](https://github.com/slametps/MMM-NetworkConnection)
+
 # MMM-NetworkConnection [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)]
 
-Network Connection Status (ping, download, upload) Module for MagicMirror<sup>2</sup>.
-This module combines [internet-monitor](https://github.com/ronny3050/internet-monitor) and [MMM-connection-status](https://github.com/sheyabernstein/MMM-connection-status).
+Network Connection Status (ping, download, upload) Module pour MagicMirror<sup>2</sup>.
+Ce module combine [internet-monitor](https://github.com/ronny3050/internet-monitor) et [MMM-connection-status](https://github.com/sheyabernstein/MMM-connection-status).
 
 ## Example
 
 ![](others/MMM-NetworkConnection-screenshot-01.png)	![](others/MMM-NetworkConnection-screenshot-02.png)
 
-## Dependencies
+## Dépendences
 
-* An installation of [MagicMirror<sup>2</sup>](https://github.com/MichMich/MagicMirror)
-* [speedtest-net](https://www.npmjs.com/package/speedtest-net) module of nodejs
+* Une installation de [MagicMirror<sup>2</sup>](https://github.com/MichMich/MagicMirror)
+* [speedtest-net](https://www.npmjs.com/package/speedtest-net) nodejs module
 
 ## Installation
 
-1. Clone this repo into `~/MagicMirror/modules` directory.
-2. Go to `~/MagicMirror/modules/MMM-NetworkConnection` directory and do `npm install`
-3. Configure your `~/MagicMirror/config/config.js`:
+1. Cloner ce dépôt dans le repertoire `~/MagicMirror/modules`.
+2. Aller dans le repertoire `~/MagicMirror/modules/MMM-NetworkConnection` et lancer `npm install`
+3. Configurer le `~/MagicMirror/config/config.js`:
 
     ```
     {
@@ -27,13 +29,13 @@ This module combines [internet-monitor](https://github.com/ronny3050/internet-mo
     }
     ```
 
-## Config Options
+## Options de configuration
 
 | **Option** | **Default** | **Description** |
 | --- | --- | --- |
-| `updateInterval` | `600000 ms` (10 minutes) | how often should the devices states refreshed |
-| `maxTime` | `5000` milliseconds | how long to do speedtest |
-| `initialLoadDelay` | `2500` milliseconds | how long to delay to load the module |
-| `decimal` | `1` | how many decimals for the round |
-| `displayTextStatus` | `true` | display connection text status or not |
-| `animationSpeed` | `2500` milliseconds | speed of the update animation |
+| `updateInterval` | `600000 ms` (10 minutes) | à quelle fréquence les états des appareils doivent-ils être actualisés |
+| `maxTime` | `5000` milliseconds | Combien de temps pour faire le teste de vitesse |
+| `initialLoadDelay` | `2500` milliseconds | Délais de chargement du module |
+| `decimal` | `1` | Combien de chiffres apres la virgule |
+| `displayTextStatus` | `true` | Afficher l'état du texte de connexion ou non |
+| `animationSpeed` | `2500` milliseconds | Vitesse de l'animation de mise à jour |
